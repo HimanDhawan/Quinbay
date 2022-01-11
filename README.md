@@ -25,6 +25,7 @@ The project's architecture uses MVVM architecture. Here "ViewController" is resp
 The view model is initiated with SearchAPIHandler Protocol. Here SOLID Principle's Open Close principle is used. Any class can make SearchAPI Handler provided some protocol rules.
 
 **Projects Snipet : -**
+
 ![Screenshot 2022-01-11 at 12 08 22 PM](https://user-images.githubusercontent.com/16226329/148893508-c3ede005-b2d7-4579-b68d-db85d1e145cd.png)
 ![Screenshot 2022-01-11 at 12 10 04 PM](https://user-images.githubusercontent.com/16226329/148893715-3bb47823-35f2-4079-a601-4a9ca42d610e.png)
 
@@ -34,6 +35,7 @@ The view model is initiated with SearchAPIHandler Protocol. Here SOLID Principle
 The tableview cell uses dynamic cell height. The technique to use dynamic cell height is to add constrains from top to bottom and make the table view height dynamic. Other important things is to give don't give height to labels as it can expand and make its number of lines 0 or custom as per requirement.
 
 **Projects Snipet : -**
+
 ![Screenshot 2022-01-11 at 12 02 04 PM](https://user-images.githubusercontent.com/16226329/148893884-2a8ddbbb-15ab-449a-96dc-9951e801667c.png)
 
 ### JSON Decoder with Models
@@ -48,6 +50,7 @@ JSON received from server is mapped to model classes using Codable Protocol and 
 When user reaches the bottom of the page, in "prefetchRowsAt" function, we inform view model to fetch more products with "page" incremented.
 
 **Projects Snipet : -**
+
 ![Screenshot 2022-01-11 at 12 13 13 PM](https://user-images.githubusercontent.com/16226329/148894032-49a08b95-6145-4235-ac6a-1f8691ed3389.png)
 ![Screenshot 2022-01-11 at 12 14 24 PM](https://user-images.githubusercontent.com/16226329/148894184-b7201e1d-3e9d-426d-9b46-509b179e7097.png)
 
@@ -60,11 +63,13 @@ See the attached GIF. As soon as user reaches bottom of the page, view model fet
 In the current session, all the tasks are fetched and mached to given search string. If matches and the next request occured, the last all tasks are cancelled.
 
 **Projects Snipet : -**
+
 ![Screenshot 2022-01-11 at 12 15 23 PM](https://user-images.githubusercontent.com/16226329/148894297-cbc90dc0-845f-445e-842f-f27dd6f2ab05.png)
 
 When task is cancelled, callback is received with -999 error code. Here return and don't do anything.
 
 **Projects Snipet : -**
+
 ![Screenshot 2022-01-11 at 12 16 26 PM](https://user-images.githubusercontent.com/16226329/148894416-08fcc28c-35b1-4112-a2ec-012278048ae9.png)
 
     
@@ -74,4 +79,6 @@ Project is created with:
 * IOS version: 15
 
 ## Application GIF
-![ezgif com-gif-maker](https://user-images.githubusercontent.com/16226329/148892640-9266b91b-c226-46e5-91f2-ab0a3d4767b6.gif)
+
+https://user-images.githubusercontent.com/16226329/148894971-d56f4366-8f6a-4253-a417-26b2555fd793.mov
+
