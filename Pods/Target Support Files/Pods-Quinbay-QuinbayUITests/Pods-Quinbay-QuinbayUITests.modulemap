@@ -1,0 +1,6 @@
+framework module Pods_Quinbay_QuinbayUITests {
+  umbrella header "Pods-Quinbay-QuinbayUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
